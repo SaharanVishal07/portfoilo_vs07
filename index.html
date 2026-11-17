@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vishal Saharan – Aspiring Software Developer passionate about AI & Cybersecurity. BTech CSE student at Newton School of Technology." />
+  <meta name="author" content="Vishal Saharan" />
+  <meta property="og:title" content="Vishal Saharan | Portfolio" />
+  <meta property="og:description" content="Aspiring Software Developer | AI & Cybersecurity Enthusiast" />
+  <title>Vishal Saharan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVIGATION
+  ========================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <span class="logo-box">VS</span>
+      </a>
+
+      <!-- Mobile toggle – pure CSS checkbox hack -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Links -->
+      <nav class="nav-menu" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#goals">Goals</a></li>
+          <li><a class="nav-link nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================== -->
+    <section class="hero" id="hero">
+
+      <!-- Animated background particles / orbs -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-lines"></div>
+      </div>
+
+      <div class="container hero-inner">
+
+        <!-- Left: Text Content -->
+        <div class="hero-content fade-up">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Available for opportunities
+          </div>
+
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Vishal Saharan</h1>
+          <h2 class="hero-title">
+            Building My Future Through
+            <span class="accent-text"> Code, AI &amp; Cybersecurity.</span>
+          </h2>
+
+          <p class="hero-desc">
+            An aspiring Computer Science Engineer passionate about technology, software development,
+            artificial intelligence, and cybersecurity. I believe in continuous learning, building
+            meaningful projects, and turning ideas into reality.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Work
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.529 2.341 1.087 2.912.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.111-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.097-2.646 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.028 1.591 1.028 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Profile Image -->
+        <div class="hero-visual fade-up delay-200">
+          <div class="profile-wrapper">
+            <div class="profile-ring"></div>
+            <div class="profile-ring ring-2"></div>
+            <div class="profile-img-box">
+              <img
+                src="assets/profile-placeholder.png"
+                alt="Vishal Saharan profile photo"
+                class="profile-img"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <!-- Fallback avatar when no image -->
+              <div class="profile-fallback" aria-hidden="true">
+                <span class="profile-initials">VS</span>
+              </div>
+            </div>
+            <!-- Floating tags -->
+            <div class="float-tag tag-ai">🤖 AI Enthusiast</div>
+            <div class="float-tag tag-sec">🔐 Cybersecurity</div>
+            <div class="float-tag tag-code">💻 Developer</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-hint" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll</span>
+      </div>
+
+    </section>
+
+    <!-- =========================================================
+         ABOUT SECTION
+    ========================================================== -->
+    <section class="section about" id="about">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <span class="section-label">Who I Am</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">The story behind my journey into technology</p>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Left column -->
+          <div class="about-image-col fade-up">
+            <div class="about-card-visual">
+              <div class="about-img-wrapper">
+                <img
+                  src="assets/profile-placeholder.png"
+                  alt="Vishal Saharan"
+                  class="about-img"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <div class="about-img-fallback" aria-hidden="true">VS</div>
+              </div>
+              <!-- Stats mini cards -->
+              <div class="stat-cards">
+                <div class="stat-card">
+                  <span class="stat-number">BTech</span>
+                  <span class="stat-label">CSE Student</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">AI + </span>
+                  <span class="stat-label">Cybersecurity</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">🇮🇳</span>
+                  <span class="stat-label">India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column -->
+          <div class="about-text-col fade-up delay-150">
+            <div class="about-intro-tag">My Journey</div>
+            <h3 class="about-heading">From Curiosity to Code</h3>
+
+            <p class="about-para">
+              My journey into Computer Science began with a simple but powerful feeling — 
+              <em>curiosity</em>. From the moment I first interacted with technology, I knew 
+              I wanted to understand how it works and, eventually, build things with it. 
+              That curiosity turned into passion, and passion led me to pursue a 
+              <strong>BTech in Computer Science Engineering</strong>.
+            </p>
+
+            <p class="about-para">
+              I am currently specializing in <strong>Artificial Intelligence &amp; Cybersecurity</strong> 
+              at Newton School of Technology. These two fields excite me the most — AI because 
+              of its limitless potential to solve complex problems, and Cybersecurity because 
+              of the critical role it plays in protecting the digital world.
+            </p>
+
+            <p class="about-para">
+              I am still early in my journey, actively learning programming, exploring 
+              core concepts, and working on small projects to build a strong foundation. 
+              My long-term goal is to become a <strong>skilled software developer</strong>, 
+              contribute to meaningful technology, and grow both as an engineer and as a 
+              professional.
+            </p>
+
+            <div class="about-values">
+              <div class="value-item">
+                <span class="value-icon">🎯</span>
+                <span>Goal-Oriented Learner</span>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">📚</span>
+                <span>Continuous Learning</span>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">🛠️</span>
+                <span>Builder Mindset</span>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">🌐</span>
+                <span>Tech Enthusiast</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SKILLS SECTION
+    ========================================================== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <span class="section-label">What I'm Learning</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">My growing toolkit — currently building a solid foundation</p>
+        </div>
+
+        <div class="skills-grid fade-up delay-100">
+
+          <!-- Programming -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Programming</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-emoji">🐍</span>
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-emoji">🌐</span>
+                <div class="skill-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-emoji">🎨</span>
+                <div class="skill-info">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Artificial Intelligence -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Artificial Intelligence</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-emoji">🤖</span>
+                <div class="skill-info">
+                  <span class="skill-name">AI Fundamentals</span>
+                  <span class="skill-level">Exploring</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-emoji">🧠</span>
+                <div class="skill-info">
+                  <span class="skill-name">ML Fundamentals</span>
+                  <span class="skill-level">Exploring</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cybersecurity -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Cybersecurity</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-emoji">🌐</span>
+                <div class="skill-info">
+                  <span class="skill-name">Networking Fundamentals</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-emoji">🔐</span>
+                <div class="skill-info">
+                  <span class="skill-name">Cybersecurity Fundamentals</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="skill-cat-title">Developer Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-emoji">🐙</span>
+                <div class="skill-info">
+                  <span class="skill-name">Git &amp; GitHub</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-emoji">💻</span>
+                <div class="skill-info">
+                  <span class="skill-name">VS Code</span>
+                  <span class="skill-level">Using</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Note -->
+        <p class="skills-note fade-up delay-200">
+          🌱 &nbsp;These are areas I am actively studying and building skills in. This section will grow as I learn and progress.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PROJECTS SECTION
+    ========================================================== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <span class="section-label">What I've Built</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Early projects and ongoing work — building real skills through real work</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Portfolio -->
+          <article class="project-card fade-up">
+            <div class="project-card-top">
+              <div class="project-icon-wrap">
+                <span class="project-icon">🌐</span>
+              </div>
+              <div class="project-status status-live">Live</div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A fully responsive personal portfolio built with pure HTML5 &amp; CSS3. 
+                Designed to showcase my skills, projects, and professional identity 
+                as I grow in software development.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Responsive Design</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="#" class="btn-project btn-proj-primary">View Project</a>
+              <a href="#" class="btn-project btn-proj-ghost" aria-label="GitHub repository">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.529 2.341 1.087 2.912.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.111-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.097-2.646 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.028 1.591 1.028 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Cybersecurity -->
+          <article class="project-card fade-up delay-100">
+            <div class="project-card-top">
+              <div class="project-icon-wrap">
+                <span class="project-icon">🔐</span>
+              </div>
+              <div class="project-status status-progress">In Progress</div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">Cybersecurity Learning Projects</h3>
+              <p class="project-desc">
+                A collection of practical exercises and mini-projects focused on 
+                cybersecurity fundamentals — including networking concepts, security 
+                principles, and hands-on practice as part of my specialization.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Networking</span>
+                <span class="tech-tag">Cybersecurity</span>
+                <span class="tech-tag">Python</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="#" class="btn-project btn-proj-primary">View Project</a>
+              <a href="#" class="btn-project btn-proj-ghost">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.529 2.341 1.087 2.912.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.111-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.097-2.646 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.028 1.591 1.028 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: AI - Coming Soon -->
+          <article class="project-card project-card-soon fade-up delay-200">
+            <div class="project-card-top">
+              <div class="project-icon-wrap">
+                <span class="project-icon">🤖</span>
+              </div>
+              <div class="project-status status-soon">Coming Soon</div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">AI-Based Projects</h3>
+              <p class="project-desc">
+                Future AI projects planned as I progress through my AI specialization. 
+                This space will be updated with hands-on machine learning experiments 
+                and AI-powered applications.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">AI</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <span class="btn-project btn-proj-disabled">Coming Soon</span>
+              <span class="btn-project btn-proj-ghost btn-disabled">GitHub</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         EDUCATION SECTION
+    ========================================================== -->
+    <section class="section education" id="education">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <span class="section-label">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">My academic path and specializations</p>
+        </div>
+
+        <div class="education-timeline fade-up delay-100">
+
+          <!-- Timeline item -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <div class="timeline-dot-inner"></div>
+            </div>
+            <div class="timeline-line"></div>
+            <div class="edu-card">
+              <div class="edu-card-left">
+                <div class="edu-icon">🎓</div>
+                <div class="edu-year">
+                  <span>Currently</span>
+                  <span class="edu-year-sub">Pursuing</span>
+                </div>
+              </div>
+              <div class="edu-card-right">
+                <div class="edu-status-badge">Currently Enrolled</div>
+                <h3 class="edu-degree">Bachelor of Technology <span class="edu-short">(BTech)</span></h3>
+                <h4 class="edu-field">Computer Science Engineering</h4>
+                <p class="edu-spec">
+                  <svg class="edu-spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 12 14 14"/></svg>
+                  Specialization: <strong>Artificial Intelligence &amp; Cybersecurity</strong>
+                </p>
+                <p class="edu-institute">
+                  <svg class="edu-spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                  Newton School of Technology
+                </p>
+
+                <div class="edu-highlights">
+                  <div class="edu-highlight">
+                    <span class="highlight-icon">🤖</span>
+                    <span>Artificial Intelligence</span>
+                  </div>
+                  <div class="edu-highlight">
+                    <span class="highlight-icon">🔐</span>
+                    <span>Cybersecurity</span>
+                  </div>
+                  <div class="edu-highlight">
+                    <span class="highlight-icon">💻</span>
+                    <span>Software Development</span>
+                  </div>
+                  <div class="edu-highlight">
+                    <span class="highlight-icon">📊</span>
+                    <span>Data Structures</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         GOALS & INTERESTS SECTION
+    ========================================================== -->
+    <section class="section goals" id="goals">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <span class="section-label">My Vision</span>
+          <h2 class="section-title">Goals &amp; Interests</h2>
+          <p class="section-subtitle">What drives me forward every day</p>
+        </div>
+
+        <div class="goals-grid fade-up delay-100">
+
+          <div class="goal-card">
+            <div class="goal-icon">🚀</div>
+            <h3 class="goal-title">Software Development</h3>
+            <p class="goal-desc">Building robust, clean, and efficient software solutions. I aim to master programming fundamentals and best practices to become a professional developer.</p>
+          </div>
+
+          <div class="goal-card">
+            <div class="goal-icon">🤖</div>
+            <h3 class="goal-title">Artificial Intelligence</h3>
+            <p class="goal-desc">Exploring how AI can transform industries and solve real-world problems. I'm passionate about understanding ML models, neural networks, and AI applications.</p>
+          </div>
+
+          <div class="goal-card">
+            <div class="goal-icon">🔐</div>
+            <h3 class="goal-title">Cybersecurity</h3>
+            <p class="goal-desc">Understanding how digital systems are protected and secured. Cybersecurity is a critical field, and I want to contribute to building safer digital environments.</p>
+          </div>
+
+          <div class="goal-card">
+            <div class="goal-icon">🧩</div>
+            <h3 class="goal-title">Problem Solving</h3>
+            <p class="goal-desc">I love the challenge of breaking down complex problems into smaller, manageable parts and finding elegant solutions through logical thinking and creativity.</p>
+          </div>
+
+          <div class="goal-card">
+            <div class="goal-icon">🛠️</div>
+            <h3 class="goal-title">Real-World Projects</h3>
+            <p class="goal-desc">Theory is just the beginning. I'm committed to building real, meaningful projects that showcase what I've learned and add genuine value to the world.</p>
+          </div>
+
+          <div class="goal-card">
+            <div class="goal-icon">📚</div>
+            <h3 class="goal-title">Continuous Learning</h3>
+            <p class="goal-desc">Technology never stops evolving, and neither will I. I believe in lifelong learning — always staying curious, exploring new tools, and expanding my knowledge base.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTACT SECTION
+    ========================================================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's Connect &amp; Build Something Great.</h2>
+          <p class="section-subtitle">I'm open to learning opportunities, collaborations, and conversations with like-minded tech enthusiasts.</p>
+        </div>
+
+        <div class="contact-grid fade-up delay-100">
+
+          <!-- Contact info card -->
+          <div class="contact-card">
+            <div class="contact-card-header">
+              <div class="contact-avatar">VS</div>
+              <div>
+                <h3 class="contact-name">Vishal Saharan</h3>
+                <p class="contact-role">Aspiring Software Developer</p>
+              </div>
+            </div>
+
+            <p class="contact-note">
+              Whether you want to discuss technology, share learning resources, 
+              collaborate on a project, or just say hello — feel free to reach out! 
+              I'm always happy to connect with fellow learners and tech enthusiasts.
+            </p>
+
+            <div class="contact-links">
+
+              <a href="mailto:your.email@example.com" class="contact-link-item">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">Email</span>
+                  <span class="contact-link-value">your.email@example.com</span>
+                </div>
+                <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+
+              <a href="#" class="contact-link-item">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">LinkedIn</span>
+                  <span class="contact-link-value">linkedin.com/in/vishal-saharan</span>
+                </div>
+                <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+
+              <a href="#" class="contact-link-item">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.529 2.341 1.087 2.912.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.111-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.097-2.646 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.028 1.591 1.028 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">GitHub</span>
+                  <span class="contact-link-value">github.com/vishal-saharan</span>
+                </div>
+                <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+
+              <a href="#" class="contact-link-item">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">Instagram</span>
+                  <span class="contact-link-value">@vishal.saharan</span>
+                </div>
+                <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Right side decorative panel -->
+          <div class="contact-visual fade-up delay-200" aria-hidden="true">
+            <div class="contact-visual-inner">
+              <div class="contact-orb"></div>
+              <div class="contact-quote">
+                <span class="contact-quote-mark">"</span>
+                <p>The journey of a thousand miles begins with a single line of code.</p>
+                <span class="contact-quote-mark">"</span>
+              </div>
+              <div class="contact-tags">
+                <span class="c-tag">#OpenToLearn</span>
+                <span class="c-tag">#BuildingSkills</span>
+                <span class="c-tag">#TechEnthusiast</span>
+                <span class="c-tag">#AI</span>
+                <span class="c-tag">#Cybersecurity</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <span class="footer-logo">VS</span>
+          <div>
+            <p class="footer-name">Vishal Saharan</p>
+            <p class="footer-tagline">Aspiring Developer | AI &amp; Cybersecurity Enthusiast</p>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h4 class="footer-nav-heading">Quick Links</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero" class="footer-nav-link">Home</a></li>
+            <li><a href="#about" class="footer-nav-link">About</a></li>
+            <li><a href="#skills" class="footer-nav-link">Skills</a></li>
+            <li><a href="#projects" class="footer-nav-link">Projects</a></li>
+            <li><a href="#education" class="footer-nav-link">Education</a></li>
+            <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <h4 class="footer-nav-heading">Find Me Online</h4>
+          <div class="footer-social-links">
+            <a href="#" class="footer-social-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.607.069-.607 1.004.07 1.532 1.031 1.532 1.031.892 1.529 2.341 1.087 2.912.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.111-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.097-2.646 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.028 1.591 1.028 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2024 Vishal Saharan. Designed &amp; built with ❤️ using HTML5 &amp; CSS3.
+        </p>
+        <p class="footer-made">Made in India 🇮🇳</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
